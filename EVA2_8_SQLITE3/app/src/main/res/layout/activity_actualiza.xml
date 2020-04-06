@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Actualiza">
+
+    <EditText
+        android:id="@+id/editTextNombreA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTelA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        tools:text="Telefono" />
+
+    <Button
+        android:id="@+id/buttonActualiza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar cambios" />
+
+</LinearLayout>
